@@ -38,7 +38,8 @@ a:hover {
 .header-logo {
   margin-top: 5px;
 }
-.mobile-menu{
+
+.mobile-menu {
   display: none;
 }
 
@@ -272,7 +273,7 @@ a:hover {
   padding: 100px 140px;
 }
 
-.mobile-arrow{
+.mobile-arrow {
   display: none;
 }
 
@@ -502,35 +503,38 @@ a:hover {
 
 
 @media screen and (max-width: 768px) {
-  
+
   .sec-header {
     padding: 0 15px;
     align-items: center;
   }
-  .header-logo img{
+
+  .header-logo img {
     width: 37px;
     height: 37px;
   }
-  
+
   .header-nav-item {
     content: url(../Img/nav-icon.png);
   }
 
   .mobile-menu {
-    display: block; 
+    display: block;
   }
 
   /* Fix Hero Section */
-  .text-wrapper{
+  .text-wrapper {
     padding: 40px 15px;
   }
+
   .hero-text {
     padding: 0px;
   }
-.sec-hero-wrap{
-  display: flex;
-  flex-direction: column;
-}
+
+  .sec-hero-wrap {
+    display: flex;
+    flex-direction: column;
+  }
 
   .hero-text h1 {
     font-family: var(--primary-font);
@@ -551,18 +555,21 @@ a:hover {
     height: auto;
     padding: 0 15px;
   }
-  .trusted-reason{
+
+  .trusted-reason {
     padding: 0 15px;
   }
-.reason-text h2{
-  font-family: var(--primary-font);
-  font-size: 18px;
-  font-weight: 600;
-  line-height: 140%;
-}
+
+  .reason-text h2 {
+    font-family: var(--primary-font);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 140%;
+  }
+
   .reason-text p {
     width: 100%;
-    margin: 0px 0px 30px 0px; 
+    margin: 0px 0px 30px 0px;
     font-size: 12px;
   }
 
@@ -576,98 +583,114 @@ a:hover {
     font-size: 14px;
     padding-left: 25px;
   }
-  .reason-lists{
+
+  .reason-lists {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 30px;
   }
 
-  .list li::before{
+  .list li::before {
     width: 15px;
     height: 15px;
   }
 
-  /* Fix Blog Cards */
-  .sec-blog{
+
+  .sec-blog {
     padding: 40px 15px;
   }
-  .sec-blog-wrap h2{
+
+  .sec-blog-wrap h2 {
     font-size: 18px;
     margin: 0 0 20px 0;
   }
+
   .blog-card img {
     width: 100%;
     height: auto;
   }
-  .sec-blog-wrapper{
+
+  .sec-blog-wrapper {
     display: flex;
     flex-direction: column;
     padding-inline: 15px;
   }
 
-  /* Fix Happy Clients Review Carousel/Stack */
-  .sec-happy-client{
+
+  .sec-happy-client {
     padding: 40px 15px;
   }
-  .sec-client-wrap h2{
+
+  .sec-client-wrap h2 {
     font-size: 18px;
     margin: 0 0 20px 0;
   }
+
   .review-card {
     padding: 35px 15px;
   }
-  .review-card p{
+
+  .review-card p {
     font-size: 12px;
   }
-  .review-card span{
+
+  .review-card span {
     font-size: 11px;
   }
 
-  .review-wrapper{
+  .review-wrapper {
     display: flex;
     flex-direction: column;
   }
 
-  .review-wrapper img{
+  .review-wrapper img {
     display: none;
   }
-   .mobile-arrow{
+
+  .mobile-arrow {
     display: flex;
     justify-content: center;
     gap: 10px;
-   }
-  /* Fix FAQ Section */
-  .sec-faq{
+  }
+
+
+  .sec-faq {
     padding: 40px 15px;
   }
-  .faq-text p{
+
+  .faq-text p {
     font-size: 18px;
     text-align: center;
     margin: 0 0 20px 0;
   }
-  .faq-question p{
+
+  .faq-question p {
     text-align: start;
     font-size: 16px;
   }
-  .faq-answer p{
+
+  .faq-answer p {
     font-size: 16px;
     text-align: start;
   }
+
   .faq-image img {
     width: 100%;
     height: auto;
     margin-bottom: 20px;
   }
-  .faq-wrap{
+
+  .faq-wrap {
     display: flex;
     flex-direction: column;
   }
 
-  /* Fix Call to Action / Information Section */
-  .sec-information{
+
+  .sec-information {
     padding: 40px 15px;
   }
+
   .information-centre {
     display: flex;
     flex-direction: column;
@@ -683,26 +706,31 @@ a:hover {
     font-size: 12px;
     margin-bottom: 20px;
   }
-.sec-quest-and-ansr{
-  margin-bottom: 20px;
-}
+
+  .sec-quest-and-ansr {
+    margin-bottom: 20px;
+  }
+
   .information-contact {
     width: 100%;
     font-size: 16px;
   }
 
-  /* Fix Footer Layout */
-  .sec-footer{
+
+  .sec-footer {
     padding: 40px 15px;
   }
+
   .footer-wrap {
     display: flex;
     flex-direction: column;
-gap: 20px;
+    gap: 20px;
   }
-.footer-left img{
-  margin: 0 0 15px 0;
-}
+
+  .footer-left img {
+    margin: 0 0 15px 0;
+  }
+
   .footer-left p {
     width: 100%;
   }
@@ -712,7 +740,8 @@ gap: 20px;
     display: flex;
     flex-direction: column;
   }
-  .footer-right p{
+
+  .footer-right p {
     text-align: start;
   }
 }
